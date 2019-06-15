@@ -1,5 +1,5 @@
 
-# CoFiF—Corpus for Finance
+# CoFiF-Corpus for Finance
 
 CoFiF is the first corpus comprising company reports in the French language. It contains over **188 million** tokens in **2655** reports, covering four types of documents:
 
