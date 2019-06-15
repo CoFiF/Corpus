@@ -13,7 +13,7 @@ These documents are collected from the 60 largest French companies listed in Fra
 ## CoFiF structure
 In addition to the PDF files which were collected from enterprises (all rights reserved), we provide the reports in raw text without further pre-processing. The following image illustrates CoFiF corpus directories where file and folder names may contain metadata such as date of publication (year), type of document (*DR*: reference document, *A*: annual, *S*: semestrial, *Q* or *T*: trimestrial): 
 
-![CoFiF structure](CoFiF_structure.png)
+![CoFiF structure](CoFiF_structure.png  =250x250)
 
 In addition to the PDF files and the raw text, we also provide a cleaned dataset `CoFiF_cleaned_all.txt` which was used for training our language model reported in the paper. 
 
