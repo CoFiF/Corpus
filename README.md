@@ -17,8 +17,8 @@ In addition to the PDF files which were collected from enterprises (all rights r
 
 In addition to the PDF files and the raw text, we also provide a cleaned dataset `CoFiF_cleaned_all.txt` which was used for training our language model reported in the paper. 
 
-## Reference
 
+## Reference 
 If you're using CoFiF in your researches, please don't forget to cite the following paper (to appear):
 
 ~~~
