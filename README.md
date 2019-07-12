@@ -19,7 +19,7 @@ In addition to the PDF files and the raw text, we also provide a cleaned dataset
 
 
 ## Reference 
-If you're using CoFiF in your researches, please don't forget to cite [this following paper](https://www.aclweb.org/anthology/papers/W/W19/W19-5504/):
+If you're using CoFiF in your researches, please don't forget to cite [this paper](https://www.aclweb.org/anthology/papers/W/W19/W19-5504/):
 
 ~~~
 @inproceedings{daudert-ahmadi-2019-cofif,
