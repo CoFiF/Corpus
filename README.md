@@ -22,11 +22,16 @@ In addition to the PDF files and the raw text, we also provide a cleaned dataset
 If you're using CoFiF in your researches, please don't forget to cite the following paper (to appear):
 
 ~~~
-@article{ahmadiCofif2019,
-  title={CoFiF: A Corpus of Financial Reports in French Language},
-  author={Ahmadi, Sina and Daudert, Tobias},
-  proceedings={Proceedings of The First Workshop on Financial Technology and Natural Language Processing (FinNLP)},
-  year={2019}
+@inproceedings{daudert-ahmadi-2019-cofif,
+    title = "{C}o{F}i{F}: A Corpus of Financial Reports in {F}rench Language",
+    author = "Daudert, Tobias  and
+      Ahmadi, Sina",
+    booktitle = "Proceedings of the First Workshop on Financial Technology and Natural Language Processing",
+    month = "12 " # aug,
+    year = "2019",
+    address = "Macao, China",
+    url = "https://www.aclweb.org/anthology/W19-5504",
+    pages = "21--26",
 }
 ~~~
 ## License 
