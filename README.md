@@ -1,4 +1,5 @@
-
+#### Update (04/02/2020): You can find the cleaned version of all the text files of the corpus (merged together) at [https://drive.google.com/uc?id=1QgCfSMTIBymlzo0j2oO7P_HQTOht1O7C&export=download](https://drive.google.com/uc?id=1QgCfSMTIBymlzo0j2oO7P_HQTOht1O7C&export=download).
+---
 # CoFiF-Corpus for Finance
 
 CoFiF is the first corpus comprising company reports in the French language. It contains over **188 million** tokens in **2655** reports, covering four types of documents:
