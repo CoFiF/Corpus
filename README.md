@@ -1,4 +1,15 @@
-#### Update (04/02/2020): You can find the cleaned version of all the text files of the corpus (merged together) at [https://drive.google.com/uc?id=1QgCfSMTIBymlzo0j2oO7P_HQTOht1O7C&export=download](https://drive.google.com/uc?id=1QgCfSMTIBymlzo0j2oO7P_HQTOht1O7C&export=download).
+### Quick access to the data:
+- [The original PDF files](https://drive.google.com/uc?id=1H0r1YJ8Jw1Z1glFe0gXoTDi9o_FwoTAG&export=download)
+- [All the corresponding text files based on the structure of the PDF files](https://github.com/CoFiF/Corpus/blob/master/CoFiF/CoFiF-Text.7z)
+- [All the text files, cleaned and merged in one single file](https://github.com/CoFiF/Corpus/blob/master/CoFiF/CoFiF_cleaned_text_all.7z)
+- If you encounter any difficulties in cloning the data from GitHub, you can also find all the merged and cleaned text files on [Google Drive](https://drive.google.com/uc?id=1QgCfSMTIBymlzo0j2oO7P_HQTOht1O7C&export=download)
+- :boom: [Two **Language models**](https://github.com/CoFiF/Corpus/tree/master/CoFiF) as described in the [paper](https://www.aclweb.org/anthology/papers/W/W19/W19-5504/) trained with the following hyper-parameters:
+    - `hiddensize=2048`
+    - `#layers=1`
+    - `sequencelenght=250`
+    - `minibatchsize=100`
+    - `epochs=3`
+
 ---
 # CoFiF-Corpus for Finance
 
@@ -14,10 +25,12 @@ These documents are collected from the 60 largest French companies listed in Fra
 ## CoFiF structure
 In addition to the PDF files which were collected from enterprises (all rights reserved), we provide the reports in raw text without further pre-processing. The following image illustrates CoFiF corpus directories where file and folder names may contain metadata such as date of publication (year), type of document (*DR*: reference document, *A*: annual, *S*: semestrial, *Q* or *T*: trimestrial): 
 
-![CoFiF structure](CoFiF_structure.png)
+<img src="CoFiF_structure.png"  width="250">
 
-In addition to the PDF files and the raw text, we also provide a cleaned dataset `CoFiF_cleaned_all.txt` which was used for training our language model reported in the paper. Due to upload restrictions, PDF documents are uploaded elsewhere on [Google Drive](https://drive.google.com/uc?id=1H0r1YJ8Jw1Z1glFe0gXoTDi9o_FwoTAG&export=download).
 
+In addition to the PDF files and the raw text, we also provide a cleaned dataset `CoFiF_cleaned_all.txt` which was used for training our language model reported in the paper. Find the language models and the merged cleaned text files at [https://github.com/CoFiF/Corpus/tree/master/CoFiF](https://github.com/CoFiF/Corpus/tree/master/CoFiF).
+
+For further information on how to use the language model, please check out [https://github.com/flairNLP/flair/tree/master/resources/docs](https://github.com/flairNLP/flair/tree/master/resources/docs).
 
 ## Reference 
 If you're using CoFiF in your researches, please don't forget to cite [this paper](https://www.aclweb.org/anthology/papers/W/W19/W19-5504/):
@@ -25,8 +38,7 @@ If you're using CoFiF in your researches, please don't forget to cite [this pape
 ~~~
 @inproceedings{daudert-ahmadi-2019-cofif,
     title = "{C}o{F}i{F}: A Corpus of Financial Reports in {F}rench Language",
-    author = "Daudert, Tobias  and
-      Ahmadi, Sina",
+    author = "Daudert, Tobias  and Ahmadi, Sina",
     booktitle = "Proceedings of the First Workshop on Financial Technology and Natural Language Processing",
     month = "12 " # aug,
     year = "2019",
